@@ -15,14 +15,15 @@ function AdminDashboard() {
             <h1>Admin Dashboard</h1>
             <h2>Uploaded Files</h2>
             <ul>
-                {files.map((file, index) => (
-                    <li key={index}>
-                        <a href={`http://localhost:5000/${file.path}`} download={file.originalname}>
-                            {file.originalname}
-                        </a> (Uploaded on: {new Date(file.uploadTime).toLocaleString()})
-                    </li>
-                ))}
-            </ul>
+            {files.map((file) => (
+             <li key={file.path}> {/* Use file.path as the key */}
+            <a href={`http://localhost:5000/${file.path}`} download={file.originalname}>
+            {file.originalname}
+            </a> (Uploaded on: {new Date(file.uploadTime).toLocaleString()})
+            </li>
+          ))}
+        </ul>
+
         </div>
     );
 }

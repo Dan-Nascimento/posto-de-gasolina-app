@@ -10,6 +10,9 @@ import Footer from './components/pages/layout/Footer';
 import Projects from './components/pages/Projects';
 import ProjectForm from './components/pages/Project/ProjectForm';
 import AdminDashboard from './components/pages/AdminDashboard';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 function App() {
   return (

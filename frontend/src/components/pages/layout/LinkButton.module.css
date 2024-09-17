@@ -4,8 +4,10 @@
     padding: 0.5em 1em;
     text-decoration: none;
     transition: 0.5s;
-}
-
-.btn:hover {
+    margin-bottom: 2em; /* Add margin to create space below the button */
+  }
+  
+  .btn:hover {
     color: #ffbb33;
-}
+  }
+  

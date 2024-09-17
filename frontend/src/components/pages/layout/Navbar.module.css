@@ -1,25 +1,35 @@
-.navbar{
+.navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center; /* Center items vertically */
     background-color: #222;
     padding: 1em;
+    height: 60px; /* Optional: Set a fixed height for the navbar */
 }
 
-.list{
+.list {
     display: flex;
     list-style: none;
-    align-items: center;
+    align-items: center; /* Ensure the list items are centered vertically */
 }
 
-.item{
+.item {
     margin-right: 1em;
 }
 
-.item a{
+.item a {
     color: #fff;
     text-decoration: none;
 }
 
 .item a:hover {
-    color:#ffbb33
+    color: #ffbb33;
+}
+
+
+/* Ensure the container doesn't add extra padding or margin */
+.navbar > div {
+    padding: 0; 
+    margin: 0;
+    width: 100%; /* Make sure the container spans the full width */
 }

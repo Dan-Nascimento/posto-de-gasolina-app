@@ -9,7 +9,7 @@
 
 .home_container h1 {
     font-size: 2.5em;
-    margin-bottom: .5em;
+    margin-bottom: 2;
 }
 
 .home_container h1 span {
@@ -25,5 +25,5 @@
 
 .home_container img {
     width: 350px;
-    margin: 2em 0;
+    margin: 0;
 }
