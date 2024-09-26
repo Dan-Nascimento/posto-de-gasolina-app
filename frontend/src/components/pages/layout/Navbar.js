@@ -14,7 +14,7 @@ function Navbar() {
                         <Link to='/contact'>Contato</Link>
                     </li>
                     <li className={styles.item}>
-                        <Link to='/company'>Empresa</Link>
+                        <Link to='/company'>Quem somos</Link>
                     </li>
                 </ul>
             </Container>

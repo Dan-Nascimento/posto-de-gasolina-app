@@ -1,0 +1,27 @@
+.contact_container {
+    text-align: center;
+    padding: 4em 2em;
+  }
+  
+  .contact_title {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0.5em;
+  }
+  
+  .contact_text {
+    font-size: 1.2em;
+    color: #7b7b7b;
+    line-height: 1.6em;
+    margin-top: 1em;
+  }
+  
+  .contact_phone {
+    font-size: 1.2em;
+    color: #000; /* Black for better emphasis */
+    margin-top: 1em;
+    font-weight: bold;
+  }
+  
+  
